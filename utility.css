@@ -1,0 +1,103 @@
+.invert {
+    filter: invert(1);
+}
+
+.m-1 {
+    margin: 4px;
+    border-radius: 5px;
+    background-color: #121212;
+}
+
+.liberary {
+
+    background-color: #121212;
+    margin: 4px;
+    min-height: 80vh;
+    border-radius: 5px;
+}
+
+.heading {
+
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    list-style: none;
+    padding-top: 15px;
+    font-weight: bold;
+
+}
+
+.heading img {
+    width: 30px;
+}
+
+.nav {
+    align-items: center;
+    width: 40px;
+    display: flex;
+}
+
+.header {
+    display: flex;
+
+    gap: 25px;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: #856f6f;
+}
+
+.cardcontainer {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 20px;
+    overflow-y: scroll;
+    max-height: 70vh;
+}
+
+.play  {
+    background-color: green;
+    border-radius: 11px;
+    width: 24px;
+    position: absolute;
+    right: 5px;
+    top: 115px;
+    opacity: 1;
+
+    transition: all 1s ease-in-out;
+
+}
+
+
+.spotify-playlists {
+    padding: 15px;
+}
+
+.card img {
+
+    object-fit: contain;
+}
+
+.card {
+    background-color: grey;
+    width: 149px;
+    position: relative;
+}
+
+.playbar {
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    background-color: rgb(160, 143, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 97%;
+
+}
+.songName{
+    margin: 2px 4px 0 0;
+}
