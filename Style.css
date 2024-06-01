@@ -108,6 +108,8 @@ body {
 .songlists{
   padding-left: 20px;
   margin: 15px 10px 0 0;
+  overflow-y: scroll;
+  max-height: 65vh;
 }
 
 .icon{
